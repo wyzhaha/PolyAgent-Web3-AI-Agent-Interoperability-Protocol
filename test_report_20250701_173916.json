@@ -1,0 +1,37 @@
+[
+  {
+    "test_name": "User Agent直接连接",
+    "success": true,
+    "details": "响应: healthy - User Agent (Amazon Shopping Coordinator) is operational...",
+    "response_time": 4.119093656539917,
+    "timestamp": "2025-07-01T17:38:09.102702"
+  },
+  {
+    "test_name": "后端API健康检查",
+    "success": true,
+    "details": "状态: healthy",
+    "response_time": 2.0652291774749756,
+    "timestamp": "2025-07-01T17:38:11.167931"
+  },
+  {
+    "test_name": "后端→User Agent通信",
+    "success": true,
+    "details": "响应: 很抱歉，我无法找到符合您要求的商品。请尝试使用不同的关键词或放宽搜索条件。...",
+    "response_time": 10.186652660369873,
+    "timestamp": "2025-07-01T17:38:21.355583"
+  },
+  {
+    "test_name": "购物请求处理",
+    "success": true,
+    "details": "包含商品信息，响应长度: 37",
+    "response_time": 11.579458713531494,
+    "timestamp": "2025-07-01T17:38:32.935042"
+  },
+  {
+    "test_name": "Agent间协调",
+    "success": true,
+    "details": "包含协调信息，响应长度: 82",
+    "response_time": 43.2165048122406,
+    "timestamp": "2025-07-01T17:39:16.152547"
+  }
+]
